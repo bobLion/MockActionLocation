@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="customer_header">48dp</dimen>
+    <dimen name="customer_bottom">55dp</dimen>
+
+    <dimen name="widget_container_length_2">2dp</dimen>
+    <dimen name="widget_container_length_5">5dp</dimen>
+    <dimen name="widget_container_length_8">8dp</dimen>
+    <dimen name="widget_container_length_10">10dp</dimen>
+    <dimen name="widget_container_length_15">15dp</dimen>
+    <dimen name="widget_container_length_20">20dp</dimen>
+    <dimen name="widget_container_length_30">30dp</dimen>
+    <dimen name="widget_container_length_35">35dp</dimen>
+    <dimen name="widget_container_length_40">40dp</dimen>
+    <dimen name="widget_container_length_50">50dp</dimen>
+    <dimen name="widget_container_length_60">60dp</dimen>
+    <dimen name="widget_container_length_70">70dp</dimen>
+    <dimen name="widget_container_length_80">80dp</dimen>
+    <dimen name="widget_container_length_90">90dp</dimen>
+    <dimen name="widget_container_length_100">100dp</dimen>
+    <dimen name="widget_container_length_150">150dp</dimen>
+    <dimen name="widget_container_length_200">200dp</dimen>
+
+    <dimen name="font_28pt">9sp</dimen>
+    <dimen name="font_30pt">11sp</dimen>
+    <dimen name="font_32pt">13sp</dimen>
+    <dimen name="font_34pt">12sp</dimen>
+    <dimen name="font_36pt">13sp</dimen>
+    <dimen name="font_38pt">14sp</dimen>
+    <dimen name="font_44pt">15sp</dimen>
+    <dimen name="font_48pt">16sp</dimen>
+    <dimen name="font_52pt">18sp</dimen>
+    <dimen name="font_58pt">20sp</dimen>
+
+
+    <dimen name="btn_height_30">30dp</dimen>
+    <dimen name="btn_height_40">40dp</dimen>
+
+    <!--图片宽度-->
+    <dimen name="icon_width_10">10dp</dimen>
+    <dimen name="icon_width_15">15dp</dimen>
+    <dimen name="icon_width_20">20dp</dimen>
+    <dimen name="icon_width_25">25dp</dimen>
+    <dimen name="icon_width_30">30dp</dimen>
+    <dimen name="icon_width_50">50dp</dimen>
+    <dimen name="icon_width_90">90dp</dimen>
+
+    <!--定义页面字体大小-->
+    <dimen name="font_size_10">10.0sp</dimen>
+    <dimen name="font_size_12">12.0sp</dimen>
+    <dimen name="font_size_14">14.0sp</dimen>
+    <dimen name="font_size_16">16.0sp</dimen>
+    <dimen name="font_size_18">18.0sp</dimen>
+    <dimen name="font_size_20">20.0sp</dimen>
+    <dimen name="font_size_24">24.0sp</dimen>
+    <dimen name="font_size_28">28.0sp</dimen>
+    <dimen name="font_size_30">30.0sp</dimen>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <!--车牌识别-->
+    <dimen name="photo_width">340dp</dimen>
+    <dimen name="photo_height">400dp</dimen>
+    <!--屏幕尺寸适配px转dp-->
+    <dimen name="length_px3">1dp</dimen>
+    <dimen name="length_px6">2dp</dimen>
+    <dimen name="length_px15">5dp</dimen>
+    <dimen name="length_px24">8dp</dimen>
+    <dimen name="length_px30">10dp</dimen>
+    <dimen name="length_px34">12dp</dimen>
+    <dimen name="length_px45">15dp</dimen>
+    <dimen name="length_px60">20dp</dimen>
+    <dimen name="length_px80">27dp</dimen>
+    <dimen name="length_px90">30dp</dimen>
+    <dimen name="length_px105">35dp</dimen>
+    <dimen name="length_px120">40dp</dimen>
+    <dimen name="length_px150">50dp</dimen>
+    <dimen name="length_px180">60dp</dimen>
+    <dimen name="length_px210">70dp</dimen>
+    <dimen name="length_px240">80dp</dimen>
+    <dimen name="length_px260">86dp</dimen>
+    <dimen name="length_px270">90dp</dimen>
+    <dimen name="length_px300">100dp</dimen>
+    <dimen name="length_px325">110dp</dimen>
+    <dimen name="length_px450">150dp</dimen>
+
+    <dimen name="length_px600">200dp</dimen>
+    //定义的条目高度
+    <dimen name="item_layout_height">35dp</dimen>
+
+
+    <dimen name="grid_expected_size">120dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+</resources>

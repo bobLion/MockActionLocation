@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <com.amap.api.maps.MapView
+            android:id="@+id/map_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+        <LinearLayout
+            android:id="@+id/lin_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/icon_width_10"
+            android:orientation="horizontal"
+            android:layout_alignParentTop="true"
+            android:padding="5dp"
+            android:background="@drawable/lin_background">
+
+            <ImageView
+                android:id="@+id/img_search"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@mipmap/path"
+                android:layout_gravity="center_vertical"
+                />
+            <EditText
+                android:id="@+id/edt_search"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="6"
+                android:hint="搜索条件"
+                android:layout_marginLeft="@dimen/widget_container_length_5"
+                android:layout_gravity="center_vertical"
+                android:background="@null"/>
+            <Button
+                android:id="@+id/btn_search"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1.2"
+                android:textSize="12sp"
+                android:textColor="@color/white"
+                android:layout_marginRight="@dimen/icon_width_10"
+                android:layout_gravity="center_vertical"
+                android:text="搜  索"
+                android:background="@drawable/text_view_green_shape"
+                />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_query_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/widget_container_length_30"
+            android:layout_marginLeft="@dimen/widget_container_length_20"
+            android:background="@drawable/layout_click_bg">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@mipmap/icon_location" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="@dimen/widget_container_length_5"
+            android:layout_marginTop="@dimen/widget_container_length_5"
+            android:layout_below="@id/lin_search">
+            <ImageView
+                android:id="@+id/walk_route"
+                android:layout_width="@dimen/icon_width_30"
+                android:layout_height="@dimen/icon_width_30"
+                android:src="@mipmap/walk_selected"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_above="@id/rl_query_location">
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fab_start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|start"
+                android:layout_margin="@dimen/fab_margin"
+                app:elevation="6dp"
+                app:pressedTranslationZ="12dp"
+                app:backgroundTint="@color/white"
+                app:srcCompat="@mipmap/location" />
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fabStop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|start"
+                android:layout_margin="@dimen/fab_margin"
+                android:visibility="invisible"
+                app:elevation="6dp"
+                app:pressedTranslationZ="12dp"
+                android:tint="@color/white"
+                app:backgroundTint="@color/material_red"
+                app:srcCompat="@mipmap/cancle" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

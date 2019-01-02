@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">MockActionLocation</string>
+
+
+    <!-- 通用 -->
+    <string name="msg_server_error">服务器异常</string>
+    <string name="msg_interface_error">接口调用失败！</string>
+    <string name="msg_upload_error">上传异常</string>
+    <string name="msg_upload_succeed">上传成功</string>
+    <string name="msg_server_address_error">请求地址错误</string>
+    <string name="tip_location_fail">定位失败</string>
+    <string name="tip_select_time_error">选择时间有误</string>
+
+    <string name="tv_video_select_point">省市选择</string>
+    <string name="tv_video_search">搜 索</string>
+
+
+    <string name="congestion">避免拥堵</string>
+    <string name="cost">避免收费</string>
+    <string name="avoidhightspeed">不走高速</string>
+    <string name="hightspeed">高速优先</string>
+
+    <string name="no_result">对不起，没有搜索到相关数据！</string>
+</resources>

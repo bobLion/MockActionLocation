@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true">
+
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btn_height_40"
+        android:background="@color/edit_back_gray_bg">
+
+        <LinearLayout
+            android:id="@+id/title_lly_back"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/button_background_white"
+            android:descendantFocusability="beforeDescendants"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/widget_container_length_5"
+            android:paddingStart="@dimen/widget_container_length_5">
+
+            <ImageView
+                android:layout_width="@dimen/icon_width_30"
+                android:layout_height="match_parent"
+                android:clickable="false"
+                android:scaleType="center"
+                android:src="@mipmap/back_btn_image" />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/title_center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="驾车偏好设置"
+            android:textColor="@color/black_333333"
+            android:textSize="@dimen/font_48pt"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/dividerline"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/title"
+        android:background="@color/darker_gray" />
+
+    <ListView
+        android:id="@+id/strategy_choose_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/dividerline"
+        android:padding="10dp">
+
+    </ListView>
+
+
+</RelativeLayout>

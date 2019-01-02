@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:dropDownListViewStyle">@style/SpinnerDropDownStyle</item>
+    </style>
+
+    <!-- 应用主题 -->
+    <style name="AppTheme" parent="AppTheme.Base"></style>
+
+    <style name="SpinnerDropDownStyle" parent="android:style/Widget.ListView.DropDown">
+        <item name="android:divider">#aaaaaa</item>
+        <item name="android:dividerHeight">1px</item>
+    </style>
+
+    <style name="MyDialog" parent="Animation.AppCompat.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <!--最后面是window background-->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!--<item name="android:windowNoTitle">false</item>-->
+        <!--这个不设置它会沾满屏幕-->
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- 设置contentview的背景图-->
+        <item name="android:background">@drawable/back_shape</item>
+    </style>
+
+</resources>

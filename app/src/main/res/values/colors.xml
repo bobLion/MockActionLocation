@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="main_blue_bg">#3b9cff</color>
+    <color name="sub_blue_bg">#e7f5ff</color>
+    <color name="main_gray_bg">#F2F5F7</color>
+    <color name="edit_back_gray_bg">#A1B3BF</color>
+    <color name="bg_gray">#fff0f0f0</color>
+
+    <color name="btn_submit_bg">#00cc99</color>
+    <color name="btn_submit_hover_bg">#06be90</color>
+
+    <color name="btn_ensure_bg">#067AC1</color>
+    <color name="btn_ensure_hover_bg">#089EC1</color>
+
+    <color name="btn_sure_bg">#ff5d5e</color>
+    <color name="btn_sure_hover_bg">#fd7171</color>
+
+    <color name="font_red_bg">#ff5d5e</color>
+    <color name="font_blue">#2a8ae0</color>
+    <color name="font_main_title">#333333</color>
+    <color name="font_edit_content">#999999</color>
+    <color name="font_deep_blue">#003399</color>
+    <color name="font_edit_hint">#80ffffff</color>
+    <color name="font_model_unselect">#7d8790</color>
+    <color name="font_listview_content">#999999</color>
+    <color name="font_pop_content">#444444</color>
+
+    <color name="font_message_sub">#999999</color>
+    <color name="font_message_content">#777777</color>
+    <color name="colorControlNormal">#FF78909C</color>
+    <color name="transparent_white">#50ebeff2</color>
+    <color name="layout_border_bg">#ced2d5</color>
+    <color name="bg">#FFFFFFFF</color>
+    <color name="side_bar_text">#4A4A4A</color>
+    <color name="shadow_bg">#66000000</color>
+    <color name="edit_bg">#EFEFF4</color>
+    <color name="darker_gray">#9b9b9b</color>
+    //-------------------------------------------
+    <color name="background_gray">#F2F5F7</color>
+    <color name="text_main_color">#2B2B2B</color>
+
+    <color name="material_indigo">#3f51b5</color>
+    <color name="material_yellow">#ffeb3b</color>
+    <color name="material_green">#4caf50</color>
+    <color name="material_blue">#2196f3</color>
+    <color name="material_blue_dark">#1976d2</color>
+    <color name="material_red">#ffcf4240</color>
+
+
+    <color name="load_failure_color">#ffb6b6b6</color>
+    <color name="gry_border_color">#ffb6b6b6</color>
+    <color name="text_sub_color">#2B2B2B</color>
+
+    <color name="phone_bg">#f6f6f6</color>
+    <color name="act_background">#efefef</color>
+</resources>
