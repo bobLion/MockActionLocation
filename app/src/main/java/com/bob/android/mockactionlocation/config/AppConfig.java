@@ -10,6 +10,39 @@ import android.os.Environment;
  */
 public class AppConfig {
 
+    /**
+     * @Field testMode : 运行模式 测试与正式区分
+     */
+    public static boolean testMode = false;
+
+    /**
+     * @Fields BASE_URL:Web根路径
+     */
+    public static final String TEST_URL = "http://172.20.26.195:8081/";
+    public static final String RELEASE_URL = "https://qpszzs.police.sh.cn/";
+
+    public static final String BASE_URL = testMode?TEST_URL:RELEASE_URL;
+
+    /**
+     * @Fields KEY_PASSWORD:AES加密密码
+     */
+    public static final String PACKAGE_NAME = "com.bob.android.mockactionlocation";
+
+    /**
+     * @Fields ENCRYPT_REQUEST_PARAM:加密参数名
+     */
+    public static final String ENCRYPT_REQUEST_PARAM = "jsonParam";
+
+    /**
+     * @Fields ENCRYPT_KEY_PARAM:加密秘钥
+     */
+    public static final String ENCRYPT_KEY_PARAM = "keyParam";
+
+    /**
+     * @Fields UNENCRYPTED_REQUEST_PARAM:非加密参数名
+     */
+    public static final String UNENCRYPTED_REQUEST_PARAM = "fileParam";
+
     public static String DEFAULT_CITY = "中国";
     public static final String EXTRA_TIP = "ExtraTip";
     public static String MAP_KEY_WORD = "1c35b2ddc7b93dbe13f081cec661b19b";
@@ -46,5 +79,7 @@ public class AppConfig {
     public static final String getTempPath() {
         return ROOT_PATH.concat("/").concat(APP_FOLDER_NAME).concat("/").concat(TEMP_FOLDER_NAME);
     }
+
+    public static final String UPOAD_IMAGE_PATH =AppConfig.BASE_URL+"/app/showImage?url=";
 
 }

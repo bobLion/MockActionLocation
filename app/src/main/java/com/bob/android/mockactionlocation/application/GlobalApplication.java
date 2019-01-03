@@ -3,6 +3,7 @@ package com.bob.android.mockactionlocation.application;
 import android.app.Activity;
 import android.app.Application;
 
+import com.bob.android.mockactionlocation.util.NetworkUtils;
 import com.rey.material.app.ThemeManager;
 
 import java.util.ArrayList;
@@ -39,5 +40,9 @@ public class GlobalApplication extends Application {
             activity.finish();
         }
         System.exit(0);
+    }
+
+    public String getIp() {
+        return NetworkUtils.getIPAddress(getApplicationContext());
     }
 }
